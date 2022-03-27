@@ -9,14 +9,14 @@ programa
 	{
 		inteiro numeros[10], opcao =0
 		
-		escreva("Escreva 10 (Dez) numeros: \n")
+		escreva("Escreva 10 (Dez) números: \n")
 		para (inteiro i=0; i<10; i++){
 			escreva("Informe o ", i+1, "º valor: ")
 			leia(numeros[i])
 		}
 		
 		enquanto(opcao!=1 e opcao!=2){
-			escreva("Deseja que os numeros sejam impressos em ordem crescente ou decrescente?\nDigite:\n1 para ordem crescente.\n2 para ordem decrescente.")
+			escreva("Deseja que os números sejam impressos em ordem crescente ou decrescente?\nDigite:\n1 para ordem crescente.\n2 para ordem decrescente.\n")
 			leia(opcao)
 			se(opcao==1){
 				para(inteiro i=0;i<10;i++){
@@ -38,10 +38,6 @@ programa
 						}
 					}
 				}
-			}senao{
-				escreva("Opção invalida.\n")
-				escreva("Deseja que os numeros sejam impressos em ordem crescente ou decrescente?\nDigite:\n1 para ordem crescente.\n2 para ordem decrescente.")
-				leia(opcao)
 			}
 		}
 		para (inteiro i=0; i<10; i++){
@@ -55,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1333; 
+ * @POSICAO-CURSOR = 1126; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
