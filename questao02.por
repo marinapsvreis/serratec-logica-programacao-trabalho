@@ -8,8 +8,9 @@ programa
 	funcao inicio()
 	{	
 			real valor1, valor2, divisaoDosValores
-			caracter menu = '0'
+			
 		faca{
+			caracter menu = '0'
 			enquanto(menu != '+' e menu != '-' e menu != '*' e menu != '/'){
 				escreva("Digite o simbolo correspondente de qual operação você quer realizar: \n")			
 				escreva("+ (Para soma) \n")
@@ -39,15 +40,7 @@ programa
 				valor2 = coletarValor(2)
 				escreva(dividir(valor1, valor2), "\n")				
 				
-			} senao {
-				escreva("Simbolo invalido, escolha uma das opções abaixo. \n ")
-				escreva("+ (Para soma) \n")
-				escreva("- (Para subtração) \n")
-				escreva("* (Para multiplicação) \n")
-				escreva("/ (Para divisão) \n")
-				leia(menu)
-			}
-		
+			}		
 
 		sair = continuarOuSair()
 		
@@ -55,7 +48,7 @@ programa
 		
 		
 	}
-
+	
 	funcao real somar(real valor1, real valor2){
 		retorne valor1+valor2
 	}
@@ -111,7 +104,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1340; 
+ * @POSICAO-CURSOR = 1034; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
