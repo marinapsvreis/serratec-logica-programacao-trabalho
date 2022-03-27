@@ -1,5 +1,5 @@
 programa
-{/*/Desenvolva um programa que some duas matrizes modelo Amxn + Amxn = Amxn. Solicite que o
+{/*/Desenvolva um programa que some duas matrizes modelo Amxn + Amxn = Amxn. Solicite que o
 usuário escolha os números de entrada de ambas as matrizes e apresente como resultado as duas
 matrizes de entrada e a matriz resultado, pode ser uma em baixo da outra. Identifique cada matriz
 ao apresentar o resultado./*/
@@ -9,7 +9,7 @@ ao apresentar o resultado./*/
 		const inteiro linhas=3,colunas=3 
 		inteiro matriz1[linhas][colunas],matriz2[linhas][colunas],matrizResultado[linhas][colunas]
 		
-		escreva("digite a primeira matriz: \n")	 
+		escreva("Digite a primeira matriz: \n")	 
 	
 		para(inteiro i=0;i<linhas;i++){
 			para(inteiro j=0;j<colunas;j++){
@@ -18,7 +18,7 @@ ao apresentar o resultado./*/
 			}
 		}
 		limpa()
-		escreva("digite a segunda matriz: \n")
+		escreva("Digite a segunda matriz: \n")
 		para(inteiro i=0;i<linhas;i++){
 			para(inteiro j=0;j<colunas;j++){
 			leia(matriz2[i][j])
@@ -66,7 +66,7 @@ ao apresentar o resultado./*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 684; 
+ * @POSICAO-CURSOR = 653; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
