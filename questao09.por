@@ -4,22 +4,22 @@ variáveis a, b, c e calcule as raízes. Apresente no final do cálculo a equaç
 variáveis lidas e o resultado. Ex. Entrada a=1, b=-5, c=6. Saída 1x
 2
 - 5x – 6 =0 -> X1=3 X2=2/*/
-	inclua biblioteca Matematica --> mat
+	inclua biblioteca Matematica --> mat
 	funcao inicio()
 
 	{
 	 real x1,x2
 	 inteiro a,b,c,delta
 		
-		escreva("escolha um valor para A: ")
+		escreva("Escolha um valor para A: ")
 		leia(a)
-		escreva("escolha um valor para B: ")
+		escreva("Escolha um valor para B: ")
 		leia(b)
-		escreva("escolha um valor para C: ")
+		escreva("Escolha um valor para C: ")
 		leia(c)
 		delta=b*b-4*a*c
 		 se(delta<=0){
-		 	escreva("a equacao de segundo grau nao possui raizes reais.")
+		 	escreva("A equação de segundo grau não possui raizes reais.")
 		 }senao{ 
 		    	x1=(-b + mat.raiz(delta,2))/(2*a)
 	    	     x2=(-b - mat.raiz(delta,2))/(2*a)
@@ -42,7 +42,7 @@ variáveis lidas e o resultado. Ex. Entrada a=1, b=-5, c=6. Saída 1x
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 404; 
+ * @POSICAO-CURSOR = 620; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
