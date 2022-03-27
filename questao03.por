@@ -10,7 +10,7 @@ programa
 		
 		para(inteiro contador=0; contador<=9; contador++)
 		{
-			escreva("Digite o nome do aluno:\n")
+			escreva("Digite o nome do aluno(",contador+1,"):\n")
 			leia(nome[contador])
 			escreva("Digite a nota da P1:\n")
 			leia(nota1[contador])
@@ -65,7 +65,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 205; 
+ * @POSICAO-CURSOR = 257; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
