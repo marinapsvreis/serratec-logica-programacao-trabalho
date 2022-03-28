@@ -38,6 +38,10 @@ programa
 			}senao se(menu == '/'){
 				valor1 = coletarValor(1)
 				valor2 = coletarValor(2)
+				enquanto(valor2 == 0){
+					escreva("O divisor não pode ser igual a 0. Digite outro valor: ")
+					valor2 = coletarValor(2)
+				}
 				escreva(dividir(valor1, valor2), "\n")				
 				
 			}		
@@ -104,7 +108,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1034; 
+ * @POSICAO-CURSOR = 1105; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
