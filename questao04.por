@@ -7,11 +7,10 @@ programa
 		caracter continuar = 'S'
 
 		enquanto (continuar == 's' ou continuar == 'S'){
-		
+
+		faca{
 			escreva("Escolha uma das opções abaixo:\n1.Fibonacci\n2.Fatorial\n")
-			leia(opcao)
-	
-			faca{
+			leia(opcao)			
 			
 				se (opcao == 1){
 					escreva("Quantos elementos da sequência de Fibonacci deseja calcular? ")
@@ -31,8 +30,7 @@ programa
 					escreva("O fatorial de ", numero, " é ", fatorial(numero), "\n") 
 				}
 				senao {
-					escreva("Escolha uma opção válida:\n1.Fibonacci\n2.Fatorial: ")
-					leia(opcao)
+					escreva("Opção Invalida\n")
 					
 				}
 			}enquanto (opcao != 1 e opcao != 2)
@@ -74,8 +72,9 @@ funcao inteiro fibonacci(inteiro qtd){
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 596; 
+ * @POSICAO-CURSOR = 231; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
